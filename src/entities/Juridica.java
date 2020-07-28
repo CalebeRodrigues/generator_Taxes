@@ -32,5 +32,9 @@ public class Juridica extends Tax_People{
 		}
 		return valor;
 	}
-
+	
+	@Override
+	public String ToString() {
+		return super.ToString() + String.format("%.2f", calculoImposto());
+	}
 }

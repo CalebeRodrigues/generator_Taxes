@@ -30,4 +30,8 @@ public abstract class Tax_People {
 	}
 
 	public abstract Double calculoImposto();
+	
+	public String ToString() {
+		return name + " $ ";
+	}
 }

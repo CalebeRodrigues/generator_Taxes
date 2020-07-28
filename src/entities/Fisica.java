@@ -34,4 +34,8 @@ public class Fisica extends Tax_People {
 		return valorImposto;
 	}
 
+	@Override
+	public String ToString() {
+		return super.ToString() + String.format("%.2f", calculoImposto());
+	}
 }
